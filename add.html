@@ -11,7 +11,30 @@
 
   </head>
   <body>
-    <h1>Galvanize Films</h1>
+      <h1><a href="index.html">Galvanize Films</a></h1>
+    <h2>Add movie</h2>
+    <form id="add-movie">
+        <label for="title">Title</label>
+        <input id="title" type="text" />
+        <label for="genre">Genre</label>
+        <input id="genre" type="text" />
+        <label for="description">Description</label>
+        <textarea id="description"></textarea>
+        <label for="cover-picture">Cover Picture</label>
+        <input id="cover-picture" type="url" />
+        <label for="rating">Rating</label>
+        <select id="rating">
+            <option>G</option>
+            <option>PG</option>
+            <option>PG-3</option>
+            <option>R</option>
+            <option>NC-17</option>
+            <option>NR</option>
+        </select>
+        <input type="submit" value="Add movie" />
+        <output class="message"></output>
+    </form>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="app.js"></script>

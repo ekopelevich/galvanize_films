@@ -3,6 +3,7 @@ https://images.unsplash.com/photo-1458053688450-eef5d21d43b3?format=auto&auto=co
 */
 body {
   /*background-color: blue;*/
+    padding: 2rem;
 }
 
 .jumbotron {
@@ -11,4 +12,26 @@ body {
   color: hsl(0, 0%, 98%);
   padding: 2em;
   column-count: 2;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+label, input, textarea, select {
+    display: block;
+    width: 30rem;
+}
+
+textarea {
+    height: 8rem;
+    resize: none;
+}
+
+input:not(:last-child), select:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.message {
+    display: none;
 }
