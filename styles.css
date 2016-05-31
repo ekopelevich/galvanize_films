@@ -1,3 +1,14 @@
+/*
+https://images.unsplash.com/photo-1458053688450-eef5d21d43b3?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1080&h=718&q=80
+*/
 body {
-  background-color: blue;
+  /*background-color: blue;*/
+}
+
+.jumbotron {
+  background-image: url(https://images.unsplash.com/photo-1458053688450-eef5d21d43b3?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1080&h=718&q=80);
+  background-size: contain;
+  color: hsl(0, 0%, 98%);
+  padding: 2em;
+  column-count: 2;
 }

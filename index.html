@@ -8,10 +8,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css" charset="utf-8">
-
   </head>
   <body>
-    <h1>Galvanize Films</h1>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <header class="navbar-header">
+          <h1 class="navbar-brand">Galvanize Films</h1>
+        </header>
+      </div>
+    </nav>
+    <main>
+      <section class="jumbotron">
+        <span class="jumbotron__description">
+          Searching for movies.
+          Search for a movie.
+          Add your own movies to search for.
+          Can you think of a movie? Maybe to search for?
+          Was that guy in that one movie? IDK? Search for it?
+        </span>
+      </section>
+      <section>
+        <form action="movies.html" method="get">
+          <div class="form-group">
+            <label for="movieTitle">Movie Title</label>
+            <input id="movieTitle" name="title" placeholder="movie" class="form-control">
+            <button type="submit" class="btn btn-default">Search</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
